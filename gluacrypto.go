@@ -1,7 +1,7 @@
 package gluacrypto
 
 import (
-	crypto "github.com/tengattack/gluacrypto/crypto"
+	crypto "github.com/cyian-1756/gluacrypto/crypto"
 	"github.com/yuin/gopher-lua"
 )
 

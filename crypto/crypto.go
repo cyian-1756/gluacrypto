@@ -15,6 +15,7 @@ var exports = map[string]lua.LGFunction{
 	"hmac":          hmacFn,
 	"encrypt":       encryptFn,
 	"decrypt":       decryptFn,
+	"pbkdf2":        pbkdf2Fn,
 }
 
 func Loader(L *lua.LState) int {
